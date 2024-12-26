@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-84vkb_u_(z1ghbib@j&woc%ls+&*(wo8*v9xu!yt!x6-rp6pa5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'halal-tijarat.onrender.com',  # Render-hosted domain
+    'localhost',                  # For local development
+    '127.0.0.1',                  # For local development
+]
+
 TELEGRAM_BOT_TOKEN = "7182564091:AAHHtu6Rbes8GCnXVyWO-PMWYtXteYRg2rg"
 TELEGRAM_CHAT_ID = "5212928367"
 
