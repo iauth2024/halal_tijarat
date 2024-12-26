@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f9fc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .dropdown {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .dropdown select {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .results-table th, .results-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .results-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .results-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        .empty-message {
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Combined Scan Results</h1>
+
+        <!-- Dropdown to select view (Today's Data or All Data) -->
+        <div class="dropdown">
+            <label for="view-select"><strong>Select View: </strong></label>
+            <select id="view-select" onchange="updateView()">
+                <option value="true" {% if view_today == 'true' %}selected{% endif %}>Today's Data</option>
+                <option value="false" {% if view_today == 'false' %}selected{% endif %}>All Data</option>
+            </select>
+        </div>
+
+        <!-- Dropdown to select scan clause -->
+        <div class="dropdown">
+            <label for="scan-select"><strong>Select Scan Clause: </strong></label>
+            <select id="scan-select" onchange="updateResults()">
+                <option value="" disabled selected>Select Scan</option>
+                {% for screener, data in combined_data.items %}
+                    <option value="{{ screener }}">{{ screener }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Table to display the scan results -->
+        <div id="results-container">
+            {% if combined_data %}
+                <table class="results-table" id="results-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for screener, data in combined_data.items %}
+                            <tr class="scan-result" id="result-{{ screener }}" style="display: none;">
+                                <td colspan="2">
+                                    <strong>{{ screener }} Results</strong>
+                                    <table style="width: 100%; margin-top: 10px;">
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Stock</th>
+                                        </tr>
+                                        {% for entry in data %}
+                                            <tr>
+                                                <td>{{ entry.Date }}</td>
+                                                <td>{{ entry.Stock|join:", " }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </table>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <div class="empty-message">No scan results found.</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        // Function to update the view (Today's Data or All Data)
+        function updateView() {
+            const viewSelect = document.getElementById('view-select');
+            const viewToday = viewSelect.value;
+            window.location.href = "?view_today=" + viewToday;
+        }
+
+        // Function to update the results based on the selected scan clause
+        function updateResults() {
+            // Hide all results
+            const results = document.querySelectorAll('.scan-result');
+            results.forEach(result => result.style.display = 'none');
+            
+            // Get the selected scan clause
+            const selectedScan = document.getElementById('scan-select').value;
+
+            // Show the selected result
+            if (selectedScan) {
+                const selectedResult = document.getElementById('result-' + selectedScan);
+                if (selectedResult) {
+                    selectedResult.style.display = 'table-row';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

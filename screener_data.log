@@ -1,0 +1,183 @@
+2024-12-19 10:23:51,745 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'LIQUIDIETF', 'name': 'ICICI Prudential S&P BSE Liquid Rate ETF', 'bsecode': '541946', 'per_chg': 0, 'close': 1000, 'volume': 50632}], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:23:52,928 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.44, 'close': 78.61, 'volume': 49838}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.26, 'close': 63.81, 'volume': 376956}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:23:53,635 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:23:53,635 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:23:54,762 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:23:54,762 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:23:55,896 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:23:55,896 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:23:56,500 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.15, 'close': 1383.8, 'volume': 2735965}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:23:57,126 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:23:57,126 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:24:57,962 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:24:57,962 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:24:58,870 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 5, 'close': 79.03, 'volume': 50145}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.5, 'close': 63.95, 'volume': 381778}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:24:59,594 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:24:59,594 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:25:00,515 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:25:00,515 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:25:01,638 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:25:01,638 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:25:02,363 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 3.98, 'close': 1381.6, 'volume': 2760090}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:25:03,074 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:25:03,076 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:26:03,801 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:26:03,801 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:26:04,922 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.69, 'close': 78.8, 'volume': 58409}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.08, 'close': 63.7, 'volume': 386977}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:26:05,645 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:26:05,645 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:26:06,660 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:26:06,660 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:26:07,762 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:26:07,785 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:26:08,817 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.01, 'close': 1382, 'volume': 2775104}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:26:09,443 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:26:09,443 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:27:10,183 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:27:10,183 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:27:11,378 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.84, 'close': 78.91, 'volume': 60662}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.4, 'close': 63.89, 'volume': 389064}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:27:12,098 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:27:12,098 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:27:13,327 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:27:13,327 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:27:14,472 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:27:14,473 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:27:15,096 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.31, 'close': 1386, 'volume': 2798413}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:27:15,682 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:27:15,682 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:28:20,457 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:28:20,457 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:28:21,459 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.84, 'close': 78.91, 'volume': 60662}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.08, 'close': 63.7, 'volume': 391284}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:28:22,234 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:28:22,234 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:28:23,264 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:28:23,265 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:28:24,188 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:28:24,188 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:28:24,627 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.76, 'close': 1392, 'volume': 2835061}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:28:25,272 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:28:25,272 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:29:50,108 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.
+2024-12-19 10:30:17,194 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:30:17,199 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:18,153 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.82, 'close': 78.9, 'volume': 62113}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:30:18,812 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:30:18,812 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:19,898 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:30:19,898 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:20,820 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:30:20,820 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:21,634 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'COFORGE', 'name': 'Coforge (Niit Tech)', 'bsecode': '532541', 'per_chg': 1.49, 'close': 9612.15, 'volume': 296968}, {'sr': 2, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.83, 'close': 1392.9, 'volume': 2900324}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:30:22,461 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:30:22,462 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:26,857 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:30:26,857 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:27,984 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.82, 'close': 78.9, 'volume': 62113}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:30:28,707 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:30:28,707 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:29,843 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:30:29,843 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:30,239 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:30:30,240 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:31,020 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:30:31,020 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:31,361 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.82, 'close': 78.9, 'volume': 62113}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:30:31,692 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'COFORGE', 'name': 'Coforge (Niit Tech)', 'bsecode': '532541', 'per_chg': 1.49, 'close': 9612.15, 'volume': 296968}, {'sr': 2, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.83, 'close': 1392.9, 'volume': 2900324}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:30:32,088 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:30:32,088 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:32,300 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:30:32,300 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:33,306 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:30:33,306 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:34,286 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:30:34,286 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:34,948 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'COFORGE', 'name': 'Coforge (Niit Tech)', 'bsecode': '532541', 'per_chg': 1.49, 'close': 9612.15, 'volume': 296968}, {'sr': 2, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.83, 'close': 1392.9, 'volume': 2900324}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:30:35,570 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:30:35,570 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:30:39,198 - INFO - Marked 0 performances as 'alert sent' without sending alerts.
+2024-12-19 10:30:40,123 - INFO - Telegram alert sent successfully: {'ok': True, 'result': {'message_id': 230, 'from': {'id': 7182564091, 'is_bot': True, 'first_name': 'Muqaddar', 'username': 'muqaddarbot'}, 'chat': {'id': 5212928367, 'first_name': 'Lucky', 'last_name': 'Bulls', 'username': 'luckyBuls', 'type': 'private'}, 'date': 1734584438, 'text': '\U0001f6a8 Stock Alert!\n\nStock Name: TEST\nScreener: Test Screener\nDetails: Close Price: \u20b9100.0 | Triggered At: 2024-12-19 05:00:39.198531+00:00\nCheck more details on your platform!'}}
+2024-12-19 10:30:40,145 - INFO - Test alert sent for stock: TEST under screener: Test Screener
+2024-12-19 10:30:50,452 - ERROR - Internal Server Error: /combined_results/
+Traceback (most recent call last):
+  File "C:\my_world\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_world\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\halal_tijarat\muqaddar\views.py", line 66, in combined_results
+    screener_data = fetch_data(scan_clause)
+  File "C:\halal_tijarat\muqaddar\views.py", line 41, in fetch_data
+    "Date": datetime.datetime.fromtimestamp(trade_times[i] / 1000),
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2024-12-19 10:30:55,932 - ERROR - Internal Server Error: /combined_results/
+Traceback (most recent call last):
+  File "C:\my_world\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\my_world\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\halal_tijarat\muqaddar\views.py", line 66, in combined_results
+    screener_data = fetch_data(scan_clause)
+  File "C:\halal_tijarat\muqaddar\views.py", line 41, in fetch_data
+    "Date": datetime.datetime.fromtimestamp(trade_times[i] / 1000),
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+2024-12-19 10:31:52,570 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:31:52,570 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:31:53,595 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.82, 'close': 78.9, 'volume': 62113}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:31:54,112 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:31:54,112 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:31:55,027 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:31:55,027 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:31:56,152 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:31:56,152 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:31:56,874 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.9, 'close': 1393.85, 'volume': 2956268}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:31:57,482 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:31:57,482 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:32:58,208 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:32:58,208 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:32:59,234 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 5, 'close': 79.03, 'volume': 62525}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.58, 'close': 64, 'volume': 416056}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:32:59,950 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:32:59,950 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:33:00,919 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:33:00,919 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:33:02,103 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:33:02,103 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:33:02,787 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.8, 'close': 1392.5, 'volume': 2973414}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:33:03,380 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:33:03,380 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:34:04,158 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:34:04,158 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:34:05,179 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 4.56, 'close': 78.7, 'volume': 63475}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 7.58, 'close': 64, 'volume': 423561}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:34:06,003 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:34:06,003 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:34:07,228 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:34:07,228 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:34:08,352 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:34:08,352 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:34:09,069 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'COFORGE', 'name': 'Coforge (Niit Tech)', 'bsecode': '532541', 'per_chg': 1.34, 'close': 9598.5, 'volume': 305685}, {'sr': 2, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.84, 'close': 1393, 'volume': 2992322}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:34:09,791 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:34:09,791 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:35:10,617 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'LIQUIDIETF', 'name': 'ICICI Prudential S&P BSE Liquid Rate ETF', 'bsecode': '541946', 'per_chg': 0, 'close': 1000, 'volume': 52267}], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:35:12,049 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 5, 'close': 79.03, 'volume': 64754}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 8.05, 'close': 64.28, 'volume': 429737}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:35:13,034 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:35:13,058 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:35:14,307 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:f850f17fc1c0c7a1e40cdc94ee4359da'}
+2024-12-19 10:35:14,307 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:35:15,629 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:7907253125c28ffde9df7ecf0a0ddb58'}
+2024-12-19 10:35:15,629 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:35:16,555 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 2, 'recordsFiltered': 2, 'data': [{'sr': 1, 'nsecode': 'COFORGE', 'name': 'Coforge (Niit Tech)', 'bsecode': '532541', 'per_chg': 1.47, 'close': 9610.3, 'volume': 308593}, {'sr': 2, 'nsecode': 'KFINTECH', 'name': 'KFin Technologies Ltd', 'bsecode': '543720', 'per_chg': 4.9, 'close': 1393.75, 'volume': 3041783}], 'link': 'scanlink:06479189a7ec58397c18312096a6818a'}
+2024-12-19 10:35:17,189 - INFO - Chartink API response: {'data': [], 'scan_error': 'There was a error in running your scan'}
+2024-12-19 10:35:17,194 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:36:08,926 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.
+2024-12-19 10:36:17,988 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 1, 'recordsFiltered': 1, 'data': [{'sr': 1, 'nsecode': 'LIQUIDIETF', 'name': 'ICICI Prudential S&P BSE Liquid Rate ETF', 'bsecode': '541946', 'per_chg': 0, 'close': 1000, 'volume': 52272}], 'link': 'scanlink:1d5902c0d96f5dfa52a5e0bdd7ab7e9b'}
+2024-12-19 10:36:19,228 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 3, 'recordsFiltered': 3, 'data': [{'sr': 1, 'nsecode': 'NKIND', 'name': 'Nk Industries Limited', 'bsecode': '519494', 'per_chg': 5, 'close': 89.26, 'volume': 6192}, {'sr': 2, 'nsecode': 'GUJRAFFIA', 'name': 'Gujarat Raffia Industries Ltd', 'bsecode': '523836', 'per_chg': 5, 'close': 79.03, 'volume': 65424}, {'sr': 3, 'nsecode': 'PIONEEREMB', 'name': 'Pioneer Embroideries Limited', 'bsecode': '514300', 'per_chg': 8.05, 'close': 64.28, 'volume': 431146}], 'link': 'scanlink:47baa8a3ab9897b4a8b25d6c230897f6'}
+2024-12-19 10:36:19,699 - INFO - Chartink API response: {'draw': 1, 'recordsTotal': 0, 'recordsFiltered': 0, 'data': [], 'link': 'scanlink:96b43225040caa2e9786476e74d516fd'}
+2024-12-19 10:36:19,699 - ERROR - No data found in the response from Chartink.
+2024-12-19 10:36:19,861 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.
+2024-12-19 10:39:04,724 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.
+2024-12-19 10:40:00,234 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.
+2024-12-19 10:40:16,110 - INFO - Marked 0 performances as 'alert sent' without sending alerts.
+2024-12-19 10:40:16,113 - ERROR - Error sending test alert: make_aware expects a naive datetime, got 2024-12-19 05:10:16.110245+00:00
+2024-12-19 10:40:16,113 - INFO - Found 0 performances to process.
+2024-12-19 10:40:34,464 - INFO - Marked 0 performances as 'alert sent' without sending alerts.
+2024-12-19 10:40:34,464 - ERROR - Error sending test alert: make_aware expects a naive datetime, got 2024-12-19 05:10:34.464898+00:00
+2024-12-19 10:40:34,464 - INFO - Found 0 performances to process.
+2024-12-19 10:41:06,139 - INFO - C:\halal_tijarat\muqaddar\views.py changed, reloading.

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-container input {
+            padding: 10px;
+            width: 250px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Performance Alerts</h1>
+
+        <!-- Search Filter -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by Symbol or Screener..." onkeyup="filterTable()">
+        </div>
+
+        <table id="performanceTable">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Screener</th>
+                    <th>Triggered At</th>
+                    <th>Initial Price</th>
+                    <th>Alert Sent</th>
+                    <th>Alert Sent At</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for performance in performances %}
+                <tr>
+                    <td>{{ performance.symbol }}</td>
+                    <td>{{ performance.screener_name }}</td>
+                    <td>{{ performance.triggered_at }}</td>
+                    <td>{{ performance.initial_price }}</td>
+                    <td>{{ performance.alert_sent }}</td>
+                    <td>{{ performance.alert_sent_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function filterTable() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            table = document.getElementById('performanceTable');
+            tr = table.getElementsByTagName('tr');
+
+            // Loop through all table rows (except the first, which is the header)
+            for (i = 1; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName('td');
+                
+                // Check both the Symbol and Screener columns
+                var symbol = td[0]; // Symbol column
+                var screener = td[1]; // Screener column
+                
+                if (symbol || screener) {
+                    txtValueSymbol = symbol.textContent || symbol.innerText;
+                    txtValueScreener = screener.textContent || screener.innerText;
+                    
+                    // If the search term matches either column, show the row
+                    if (txtValueSymbol.toUpperCase().indexOf(filter) > -1 || txtValueScreener.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
