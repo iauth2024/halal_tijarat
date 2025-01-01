@@ -58,6 +58,8 @@ def combined_results(request):
     'Hp Strong Momentum': "( {cash} ( ( {cash} ( [0] 15 minute macd line( 26 , 12 , 9 ) > [0] 15 minute macd signal( 26 , 12 , 9 ) and [ -1 ] 15 minute macd line( 26 , 12 , 9 ) <= [ -1 ] 15 minute macd signal( 26 , 12 , 9 ) and [-1] 15 minute macd line( 26 , 12 , 9 ) <= [-1] 15 minute macd signal( 26 , 12 , 9 ) and latest macd line( 26 , 12 , 9 ) > latest macd signal( 26 , 12 , 9 ) and [0] 15 minute ema( [0] 15 minute close , 5 ) > [0] 15 minute ema( [0] 15 minute close , 9 ) and latest ema( latest close , 9 ) > latest ema( latest close , 21 ) and latest rsi( 14 ) > 55 and [0] 15 minute rsi( 14 ) > 70 and latest volume > latest sma( latest volume , 20 ) * 1.5 and [0] 15 minute volume > [0] 15 minute sma( [0] 15 minute volume , 20 ) * 1.5 and monthly close > monthly upper bollinger band( 20 , 2 ) and weekly close > weekly upper bollinger band( 20 , 2 ) and latest close > latest sma( latest close , 20 ) and [0] 15 minute close > [0] 15 minute vwap and latest adx( 14 ) > 20 ) ) ) ) ",
     'HSabi monthly upper': "( {cash} ( ( {cash} ( latest macd line( 26 , 12 , 9 ) > latest macd signal( 26 , 12 , 9 ) and [0] 15 minute ema( [0] 15 minute close , 9 ) > [0] 15 minute ema( [0] 15 minute close , 21 ) and latest ema( latest close , 9 ) > latest ema( latest close , 21 ) and [0] 15 minute rsi( 14 ) > 50 and [-2] 15 minute rsi( 14 ) <= [-1] 15 minute rsi( 14 ) and [-1] 15 minute rsi( 14 ) <= [0] 15 minute rsi( 14 ) and [0] 15 minute volume > [0] 15 minute sma( [0] 15 minute volume , 20 ) * 1.5 and [0] 15 minute close > [0] 15 minute vwap and [0] 15 minute adx( 14 ) > 20 and weekly close > weekly upper bollinger band( 20 , 2.5 ) and [0] 15 minute rsi( 14 ) > [0] 15 minute sma( [0] 15 minute close , 20 ) ) ) ) ) ",
     'Hasbi Upper reversal': "( {cash} ( ( {cash} ( latest macd line( 26 , 12 , 9 ) > latest macd signal( 26 , 12 , 9 ) and latest ema( latest close , 9 ) > latest ema( latest close , 21 ) and latest rsi( 14 ) > 60 and [0] 15 minute rsi( 14 ) > 60 and [0] 15 minute volume > [0] 15 minute sma( [0] 15 minute volume , 20 ) * 1.5 and latest close > latest sma( latest close , 20 ) and [0] 15 minute close > [0] 15 minute sma( [0] 15 minute close , 20 ) and [0] 15 minute close > [0] 15 minute vwap and [0] 15 minute adx( 14 ) > 20 and monthly close > monthly upper bollinger band( 20 , 2 ) and weekly close > weekly upper bollinger band( 20 , 2 ) and [0] 15 minute close < 1 year ago high ) ) ) ) ",
+    'Jackpot': "( {cash} ( [0] 5 minute rsi(14) > [0] 5 minute sma([0] 5 minute rsi(14), 20) and [0] 5 minute rsi(14) > [0] 5 minute sma([0] 5 minute close, 20) and [0] 5 minute volume > [0] 5 minute sma([0] 5 minute volume, 20) and [0] 5 minute volume > [0] 5 minute sma([0] 5 minute close, 20) and [0] 5 minute close > [0] 5 minute sma([0] 5 minute close, 20) and [-1] 5 minute close <= [-1] 5 minute sma([0] 5 minute close, 20) ) )"
+
     }
 
     # Collect combined results from all clauses
@@ -104,7 +106,7 @@ from .models import Stock  # Ensure the `Stock` model is properly imported
 def screener_results(request):
     screener_names = [
         "ALL", "BBB", "HDT", "Hasbi RSI Surge", "Hasbi Monthly Upper",
-        "Hasbi Upper Reversal", "Hasbi Swing", "Hasbi Strong Momentum"
+        "Hasbi Upper Reversal", "Hasbi Swing", "Hasbi Strong Momentum","Jackpot"
     ]
 
     # Screener conditions
@@ -185,9 +187,16 @@ def screener_results(request):
         "weekly close > weekly upper bollinger band(20, 2) and "
         "latest close > latest sma(latest close, 20) and "
         "[0] 15 minute close > [0] 15 minute vwap and latest adx(14) > 20)"
-    )
-        # Add other screener conditions similarly...
-    }
+    ),
+  'Jackpot': "( {cash} ( "
+"latest rsi(14) > latest sma(latest rsi(14), 20) and "
+"latest rsi(14) > latest sma(latest close, 20) and "
+"latest volume > latest sma(latest volume, 20) and "
+"latest volume > latest sma(latest close, 20) and "
+"latest close > latest sma(latest close, 20) and "
+"1 day ago close <= 1 day ago sma(latest close, 20) "
+") )"
+
 
     
 
@@ -279,7 +288,7 @@ def fetch_screener_data(condition, screener_name):
                     symbol=row["nsecode"],
                     screener_name=screener_name,
                     defaults={
-                        "triggered_at": datetime.now(),
+                        "triggered_at": now(),
                         "initial_price": row["close"],
                     }
                 )
